@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root node="" message="" timestamp="0" login="0" debug="0" logo="Мандри" xsl="index.xsl" recaptcha=""
+    title="Книга відгуків та пропозицій"
+    description="Книга відгуків та пропозицій"
+    keywords="відгуки, пропозиції"
+    copyright="Мандри &#169; 2017">
+    <parameters title="Книга відгуків та пропозицій" />
+    <debug time="0" memory="0" memoryPeak="0"><mapper><queries /></mapper><trace message="" /></debug>
+</root>
+

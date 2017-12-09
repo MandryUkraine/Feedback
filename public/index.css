@@ -1,0 +1,122 @@
+html {
+    min-height:100%;font-weight:500;font-size:calc(12px + 0.5vw);line-height:calc(150% + 0.5vw);;
+    font-family:serif;;margin:0;}
+body {min-height:100vh;color:#303030;background-color:#ffffff;padding:0;margin:0;position:relative;}
+a {color:#231F20;text-decoration:none;}
+a:hover {color:#6A7796;text-decoration:none;}
+a:active {color:#6A7796;text-decoration:none;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;line-height:150%;}
+h1{font-size:1.9rem;margin:0;}
+h2{font-size:1.6rem;}
+h3{font-size:1.3rem;}
+h4{font-size:1.0rem;margin:5px 0;}
+h5{font-size:0.9rem;font-weight:bold;margin-bottom:5px;}
+h6{font-size:0.8rem;margin:0;}
+img {border:none;display:block;}
+div {vertical-align:top;}
+sup {font-size:0.6rem;line-height:100%;}
+input, select, textarea {font-size:0.9rem;padding:2px 3px;}
+input[type='submit']. input[type='reset'], input[type='button'] {padding:3px 5px;}
+
+header {margin-top:10px;}
+header div.logo {margin-left:15px;display:inline-block;float:left;}
+header div.logo a {
+    color:#F5DA33;font:700 1.5rem sans-serif;line-height:1.5rem;text-shadow:1px 1px 0 #999;}
+header div.logo a:hover {text-shadow:1px 1px 0 #000;}
+header div.exit {margin-right:15px;display:inline-block;float:right;}
+header div.exit a {
+    color:#333;font:500 1.0rem serif;line-height:1.5rem;text-shadow:1px 1px 0 #fff;}
+header div.exit a:hover {text-decoration: underline;}
+
+#message {text-align:center;margin:10px auto;}
+#message p {
+    max-width:960px;border:solid 1px #ccc;background-color:#eee;padding:10px 15px;display:inline-block;}
+
+main {max-width:960px;min-height:50vh;margin:0 auto;}
+main div.top {width: 100%;margin-top: 30px;display: table;}
+main div.top div.title {text-align: left;}
+main div.top div.title h1 {font-size: 1.8rem;}
+main div.top div.order {text-align: right;vertical-align: middle;}
+main div.top div.order select {font-size:0.8rem;}
+main div.top div.cell {display: table-cell;}
+
+main.list {}
+main.list div.messages {margin-top:30px;}
+main.list div.messages div.message {margin-top:50px;}
+main.list div.messages div.message div.header {
+    width:100%;font-size:0.8rem;line-height:150%;border-collapse:collapse;background-color:#eee;display:table;}
+main.list div.messages div.message div.header div {
+    vertical-align: middle;border: solid 1px #ccc;padding: 0 5px;display: table-cell;}
+main.list div.messages div.message div.header div.date {width:20%;text-align:center;}
+main.list div.messages div.message div.header div.name {width:20%;}
+main.list div.messages div.message div.header div.email {width:27%;}
+main.list div.messages div.message div.header div.site {width:27%;}
+main.list div.messages div.message div.header div.control {width:6%;text-align:center;}
+main.list div.messages div.message div.header div.control a {
+    width: 14px;height: 14px;line-height: 0;display: inline-block;margin:5px 0 0;
+    background-image: url('/icons-grayscale.gif');background-repeat: no-repeat;background-size: 30px 15px;}
+main.list div.messages div.message div.header div.control a:hover {background-image: url('/icons.gif');}
+main.list div.messages div.message div.header div.control a.edit {background-position: -16px 0;}
+main.list div.messages div.message div.header div.control a.delete {background-position: 0 0;margin-left:7px;}
+main.list div.messages div.message div.text {
+    border:solid 1px #ccc;border-top:none;padding:10px 8px;}
+main.list div.messages div.message div.footer {
+    width:100%;font-size:0.7rem;line-height:150%;border-collapse:collapse;background-color:#fffeee;display:table;}
+main.list div.messages div.message div.footer div {
+    border:solid 1px #ccc;border-top:none;padding:0 5px;display:table-cell;}
+main.list div.messages div.message div.footer div.ip {width:10%;text-align:center;}
+main.list div.messages div.message div.footer div.browser {width:90%;overflow:hidden;}
+main.list div.pagination {text-align: center;margin-top: 20px;}
+main.list div.pagination a {margin:0 5px;}
+main.list div.pagination a.active {color:#ccc;font-weight: 700;}
+main.list div.form {max-width:640px;margin:30px auto 0;}
+main.list div.form.hidden {display: none;}
+main.list div.form div.field {padding:7px 0;}
+main.list div.form div.field input {width:100%;}
+main.list div.form div.field textarea {width:100%;height:15vh;}
+main.list div.form div.captcha {text-align:center;}
+main.list div.form div.captcha div.g-recaptcha {display:inline-block;}
+main.list div.form div.buttons {text-align:center;vertical-align:middle;}
+main.list div.form div.buttons input {margin:20px 5px;}
+main.list p.empty {text-align:center;margin-top:30px;}
+
+main.login {}
+main.login div.form {max-width:640px;text-align:center;margin:80px auto;}
+main.login div.form div {margin:20px 0;}
+main.login div.form div.captcha {margin-top:0;display:inline-block;}
+main.login div.form div.buttons input {margin:20px 5px;}
+
+footer {color:#333;font-family:'',sans-serif;margin:80px 0 30px 0;}
+footer a {color:#333;margin:0 8px;}
+footer a:hover {color:#000;}
+footer nav {text-align:center;}
+footer div.copyright {font-size:0.8rem;text-align:center;margin-top:20px;}
+
+#debug {
+    max-width:90%;font-size:0.8rem;font-family:"Courier New",Courier,monospace;
+    border-top:dashed 1px #666;padding:30px 0;margin:50px auto;}
+#debug h2.title {font-weight:300;text-align:center;}
+#debug div.common {margin:20px auto 0;border-collapse:collapse;display:table;}
+#debug div.common div.row {display:table-row;}
+#debug div.common div.row div {border:solid 0 #666;padding:0 10px;display:table-cell;}
+#debug div.common div.row div.value {text-align:right;font-weight:bold;}
+#debug div.mapper {border-collapse:collapse;margin:20px auto 0;display:table;}
+#debug div.mapper div.query {display:table-row;}
+#debug div.mapper div.query div {border:solid 1px #666;padding:0 10px;display:table-cell;}
+#debug div.mapper div.query div.time {white-space:nowrap;}
+#debug div.mapper div.query div.sql {color:green;margin:0;}
+#debug div.mapper div.query div.sql pre {white-space: pre-line;margin:0;}
+#debug div.mapper div.query div.sql pre span {color:blue;font-weight:normal;}
+#debug h4.exception {text-align:center;margin:50px auto;}
+#debug h4.exception span {font-weight:700;}
+#debug div.trace {border-collapse:collapse;margin:20px auto 0;display:table;}
+#debug div.trace div.item {display:table-row;}
+#debug div.trace div.item div {border:solid 1px #666;padding:0 10px;display:table-cell;}
+#debug div.trace div.item div.file {white-space:nowrap;}
+#debug div.trace div.item div.line {white-space:nowrap;}
+#debug div.trace div.item div.function {white-space:nowrap;}
+#debug div.trace div.item div.arg {color:green;margin:0;}
+#debug div.trace div.item div.arg span {color:blue;font-weight:normal;}
+
+
+.clear {clear:both;}
